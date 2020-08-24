@@ -1,0 +1,8 @@
+<nav class="head-nav">
+    <div class="head-nav__links" [ngClass]="{'head-nav__links--active': true}" *ngFor="let link of links">
+        <a [routerLink]=[link.path]>
+            {{link.name}}
+        </a>
+    </div>
+    <!-- {{ this.router.url }} -->
+</nav>

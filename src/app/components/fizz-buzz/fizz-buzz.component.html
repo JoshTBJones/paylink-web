@@ -1,0 +1,14 @@
+<h1>Fizzbuzz</h1>
+<p>FizzBuzz is a very simple programming task, used in software developer job interviews, to determine whether the job candidate can actually write code. It was invented by Imran Ghory, and popularized by Jeff Atwood.</p>
+
+<ul>
+    <li *ngFor="let result of results">
+        {{result}}
+    </li>
+</ul>
+
+<div>
+    <input #start name="start" id="start" placeholder="start number" type="number">
+    <input #end name="end" id="end" placeholder="end number" type="number">
+</div>
+<button (click)="userInput(start.value, end.value)">Generate Custom Fizz Buzz</button>
