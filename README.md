@@ -8,7 +8,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## PHP Example
 
-As I didn't have time to complete the PHP version of Fizzbuzz and Fibonacci I have included an example below of a PHP / Laravel app I built as an other technical challenge.
+The PHP counterpart of this challenge can be found on [Github](https://github.com/JoshTBJones/paylink-api).
+
+## Extra PHP Example
 
 [Laravel / PHP](https://github.com/JoshTBJones/jadu-rss)
 
